@@ -52,7 +52,7 @@ document.addEventListener('DOMContentLoaded', function() {
             console.log('Respuesta del servidor:', data);
             document.getElementById('success-message').innerText = "Se agregó la nueva Sala";
             alert("Se agregó la nueva Sala");
-            window.location.href = `/front/html/nuevoequipo.html`;
+            window.location.href = `/html/nuevoequipo.html`;
         })
         .catch(error => {
             console.error('Error:', error);
