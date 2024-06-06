@@ -29,7 +29,7 @@ document.addEventListener('DOMContentLoaded', function() {
         })
         .then(data => {
             console.log('Respuesta del servidor:', data);
-            window.location.href = "..Html/Salas.html";
+            window.location.href = "Html/Salas.html";
           
         })
         .catch(error => {
