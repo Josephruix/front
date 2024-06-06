@@ -31,7 +31,7 @@ document.addEventListener("DOMContentLoaded", function() {
             localStorage.setItem('usuario', JSON.stringify(data.usuario));
             localStorage.setItem('rolUsuario', data.rol);
             mostrarBotonesSegunRol(data.rol); 
-            window.location.href = "Html/Salas.html"; 
+            window.location.href = "../Html/Salas.html"; 
         })
         .catch(error => {
             console.error('Error:', error);
